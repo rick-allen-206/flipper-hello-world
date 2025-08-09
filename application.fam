@@ -1,0 +1,8 @@
+App(
+    appid="hello_world",
+    name="Hello World",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="hello_world_app",
+    stack_size=4 * 2048,
+    fap_category="Test",
+)
